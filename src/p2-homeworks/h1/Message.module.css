@@ -1,0 +1,44 @@
+.main {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 450px;
+    align-items: end;
+    height: 200px;
+}
+img {
+width: 70px;
+    border-radius: 70px;
+}
+.message {
+    position: relative;
+    max-width: 200px;
+    background-color: #282c34;
+    border: 8px solid #666;
+    border-radius: 1em;
+    padding-left: 1em;
+}
+.message:before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -30px;
+    bottom: 0;
+    border: 15px solid transparent; border-right: 15px solid #666; border-bottom: 15px solid #666;
+}
+h3 {
+    color: blue;
+}
+p {
+    color: chartreuse;
+    overflow-wrap:break-word;
+}
+.time {
+    position: relative;
+    left: 9em;
+    color: #666666;
+}
+
+.avatar {
+    width: 70px;
+}
