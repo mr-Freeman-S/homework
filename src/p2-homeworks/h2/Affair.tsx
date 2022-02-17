@@ -1,5 +1,7 @@
 import React from 'react'
 import {AffairType} from "./HW2";
+import style from './Affairs.module.css'
+import img from './delete.png'
 
 
 type AffairPropsType = {
@@ -14,9 +16,11 @@ function Affair(props: AffairPropsType) {
     }// need to fix
 
     return (
-        <div>
-            // show some text
-            <button onClick={deleteCallback}>X</button>
+        <div className={style.affairItem}>
+            <span>{props.affair.name}</span>
+            <span>[{props.affair.priority}]</span>
+
+            <button className={style.deleteButton}  onClick={deleteCallback}><img className={style.delete} src={img} alt=""/></button>
         </div>
     )
 }

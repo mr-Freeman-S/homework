@@ -1,3 +1,31 @@
-.someClass {
+.main{
+    margin: auto;
+    width: 400px;
 
+
+}
+.affairItem {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr  30px;
+    justify-content: space-between;
+
+    width: 300px;
+}
+.buttons {
+    display: inline-grid;
+    width: 100%;
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+
+}
+.delete {
+    width: 25px;
+}
+.deleteButton {
+    background: none;
+    border: none;
+}
+.buttons button {
+    width: 90px;
+    justify-content: space-between;
+    border-radius: 1fr;
 }

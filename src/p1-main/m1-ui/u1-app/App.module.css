@@ -1,3 +1,10 @@
 .App {
-
+background: #EDEFEE;
+    color: #41403C;
+    font-family: sans-serif;
+    margin: auto;
+}
+button{
+    background: #cf8855;
+    color: azure;
 }

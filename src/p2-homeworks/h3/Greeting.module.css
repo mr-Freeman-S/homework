@@ -1,7 +1,23 @@
-.someClass {
+.main {
+    width: 400px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 40px 1fr;
+    grid-gap: 1em;
+    justify-content: center;
 
 }
 
-.error {
-    border: 1px solid red;
+.error:focus {
+    outline: none !important;
+    border: 2px solid red;
+}
+
+
+.notError:focus {
+    box-shadow: 0 0 10px #719ECE;
+}
+
+.errorText {
+    color: red;
 }
