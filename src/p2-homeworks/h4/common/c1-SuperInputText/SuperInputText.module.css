@@ -1,12 +1,54 @@
-.superInput {
-
+.superInput, .errorInput {
+    background: rgba(0, 51, 143, 0.12);
+    border: none;
+    border-bottom: 0.124rem solid rgba(19, 19, 21, 0.6);
+    width: 20rem;
+    height: 2rem;
+    margin: 10px;
+    font-size: 1.0625rem;
+    padding-left: 0.875rem;
+    line-height: 147.6%;
+    padding-top: 0.825rem;
+    padding-bottom: 0.5rem;
 }
 
+.superInput:hover, .errorInput:hover {
+
+    background: rgba(73, 133, 224, 0.12);
+    border-bottom: 0.124rem solid #121212;
+}
+
+.superInput:focus, .errorInput:focus {
+    outline: none;
+    border-bottom: 0.124rem solid #1e4bd1;
+}
+
+/* rewrite property, need FIX*/
 .errorInput {
-    border: 3px solid lime;
-    background: red;
+    border-bottom: 0.124rem solid rgba(255, 0, 0, 0.6);
+}
+
+.errorInput:hover {
+    border-bottom: 0.124rem solid rgba(255, 0, 0, 0.6);
+}
+
+.errorInput:focus {
+    border-bottom: 0.124rem solid rgba(255, 0, 0, 0.6);
+}
+
+.inputLabel {
+
+    top: 0.9375rem;
+    left: 0.875rem;
+    line-height: 147.6%;
+    transition: top .2s;
 }
 
 .error {
+    position: relative;
+    font-size: 0.9375rem;
     color: red;
+    letter-spacing: 0.0275rem;
+    margin: 0.125rem 0.875rem;
+    right: 150px;
 }
