@@ -1,5 +1,18 @@
 .blue {
+    background: rgba(0, 51, 143, 0.12);
+    border: none;
     border-bottom: 5px solid blue;
+    width: 20rem;
+    height: 2rem;
+    margin: 10px;
+    font-size: 1.0625rem;
+    padding-left: 0.875rem;
+    line-height: 147.6%;
+    padding-top: 0.825rem;
+    padding-bottom: 0.5rem;
+}
+.blue:focus{
+    outline: none;
 }
 
 .column {
@@ -11,3 +24,4 @@
 .testSpanError {
     color: blue;
 }
+
