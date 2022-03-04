@@ -1,0 +1,22 @@
+.mainDiv {
+    left: 0;
+    top: 0;
+    display: inline-block;
+    padding: 20px;
+    max-width: 240px;
+
+        margin-left: -200px;
+
+}
+.buttonSlide{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #61dafb;
+    text-align: center;
+}
+
+.buttonSlide::after{
+    content: '\2192';
+    font-weight: 600;
+}
