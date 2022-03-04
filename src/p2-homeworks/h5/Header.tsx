@@ -6,14 +6,13 @@ import s from './Header.module.css'
 
 function Header() {
 
-    return (<div style={{display: "inline-block"}}>
-            <div className={s.mainDiv}>
-                <NavLink to={PATH.PRE_JUNIOR}>PreJunior</NavLink>
-                <NavLink to={PATH.JUNIOR}>Junior</NavLink>
-                <NavLink to={PATH.JUNIOR_PLUS}>Junior+</NavLink>
-            </div>
-            <div className={s.buttonSlide}></div>
+    return (
+        <div className={s.mainDiv}>
+            <NavLink to={PATH.PRE_JUNIOR}>PreJunior</NavLink>
+            <NavLink to={PATH.JUNIOR}>Junior</NavLink>
+            <NavLink to={PATH.JUNIOR_PLUS}>Junior+</NavLink>
         </div>
+
 
     )
 }
