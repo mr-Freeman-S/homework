@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/mr-Freeman-S.github.io/homework/static/css/main.8bb2f042.css",
-    "main.js": "/mr-Freeman-S.github.io/homework/static/js/main.d304f868.js",
-    "index.html": "/mr-Freeman-S.github.io/homework/index.html",
-    "main.8bb2f042.css.map": "/mr-Freeman-S.github.io/homework/static/css/main.8bb2f042.css.map",
-    "main.d304f868.js.map": "/mr-Freeman-S.github.io/homework/static/js/main.d304f868.js.map"
+    "main.css": "/homework/static/css/main.8bb2f042.css",
+    "main.js": "/homework/static/js/main.d304f868.js",
+    "index.html": "/homework/index.html",
+    "main.8bb2f042.css.map": "/homework/static/css/main.8bb2f042.css.map",
+    "main.d304f868.js.map": "/homework/static/js/main.d304f868.js.map"
   },
   "entrypoints": [
     "static/css/main.8bb2f042.css",
