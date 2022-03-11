@@ -1,0 +1,10 @@
+.editSpan {
+    color: black;
+    font-weight: 600;
+    margin: 10px;
+    padding-top: 0.825rem;
+    padding-bottom: 0.5rem;
+    width: 20rem;
+    height: 2rem;
+    text-align: center;
+}
