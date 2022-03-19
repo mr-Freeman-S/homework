@@ -1,10 +1,11 @@
 import React, {SelectHTMLAttributes, DetailedHTMLProps, ChangeEvent} from 'react'
+import s from './SelectStyle.module.css'
 
 type DefaultSelectPropsType = DetailedHTMLProps<SelectHTMLAttributes<HTMLSelectElement>, HTMLSelectElement>
 
 type SuperSelectPropsType = DefaultSelectPropsType & {
     options?: string[]
-    onChangeOption?: (option: any) => void
+    onChangeOption?: (option: string) => void
 }
 
 const SuperSelect: React.FC<SuperSelectPropsType> = (
@@ -14,7 +15,7 @@ const SuperSelect: React.FC<SuperSelectPropsType> = (
         ...restProps
     }
 ) => {
-    const mappedOptions: any[] = (options) ? options.map(el => <option key={el}>{el}</option>) : [] // map options with key
+    const mappedOptions: object[] = (options) ? options.map(el => <option key={`key-${el}`}>{el}</option>) : [] // map options with key
 
     const onChangeCallback = (e: ChangeEvent<HTMLSelectElement>) => {
         onChangeOption && onChangeOption(e.currentTarget.value)
@@ -23,7 +24,7 @@ const SuperSelect: React.FC<SuperSelectPropsType> = (
     }
 
     return (<div>
-            <select style={{width: "50px"}} onChange={onChangeCallback} {...restProps}>
+            <select className={s.selectCss} onChange={onChangeCallback} {...restProps}>
                 {mappedOptions}
             </select>
         </div>
