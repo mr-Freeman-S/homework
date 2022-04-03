@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Boge";
+    src:url(../../../src/fonts/Boge.ttf) format('woff');
+}
+.clock {
+    font-family: Boge,sans-serif;
+    height: 50px;
+}

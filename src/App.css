@@ -1,5 +1,11 @@
+@font-face {
+  font-family: "Boge";
+  src:url("./src/fonts/Boge.ttf") format('woff');
+}
+
 .App {
   text-align: center;
+
 }
 
 .App-logo {
