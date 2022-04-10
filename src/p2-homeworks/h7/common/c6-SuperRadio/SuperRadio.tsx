@@ -35,11 +35,10 @@ const SuperRadio: React.FC<SuperRadioPropsType> = (
             <span className={s.radioText}>{o}</span>
         </label>
     )) : []
-    console.log(typeof mappedOptions)
     return (
-        <>
+        <div className={s.radioButton}>
             {mappedOptions}
-        </>
+        </div>
     )
 }
 

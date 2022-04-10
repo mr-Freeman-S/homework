@@ -6,16 +6,16 @@
     box-sizing: border-box;
     width: 100%;
     height: 100%;
-    border: 10px solid #EDEFEE;
+    border: 10px solid #e3e2e2;
     border-top-color: #4bc8eb;
-    border-bottom-color: #a00c47;
+    border-bottom-color: #d9d700;
     border-radius: 50%;
     animation: rotate 5s linear infinite;
 }
 
 .loaderInner {
     border-top-color: #93ff26;
-    border-bottom-color: #ffffff;
+    border-bottom-color: #ee0404;
     animation-duration: 2.5s;
 }
 @keyframes rotate {

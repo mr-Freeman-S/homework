@@ -1,3 +1,7 @@
+.radioButton {
+margin-bottom: 20px;
+}
+
 .labelInput input{
     position: absolute;
     z-index: -1;
@@ -6,7 +10,7 @@
 }
 .radioText {
     position: relative;
-    padding: 0 0 0 35px;
+    padding: 0 10px 0 30px;
     cursor: pointer;
     top: 10px;
 

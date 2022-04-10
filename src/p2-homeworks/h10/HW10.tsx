@@ -30,7 +30,7 @@ function HW10() {
                     </div>
                 ) : (
                     <div>
-                        <SuperButton onClick={setLoading}>set loading...</SuperButton>
+                        <SuperButton onClick={setLoading}>set</SuperButton>
                     </div>
                 )
             }
