@@ -25,7 +25,7 @@ const SuperRange: React.FC<SuperRangePropsType> = (
         onChangeRange && onChangeRange(+e.currentTarget.value)
     }
 
-    const finalRangeClassName = `${s.range} ${className ? className : ''}`
+    const finalRangeClassName = className ? className : s.range
 
     return (
         <>
