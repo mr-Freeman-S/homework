@@ -13,6 +13,18 @@
 .red-text {
     color: aqua;
 }
+.gold {
+    background: gold;
+}
+.gold-text {
+    color: #888888;
+}
+.green {
+    background: #205928;
+}
+.green-text {
+    color: #e5e5e5;
+}
 
 .some {
     background: lightgreen;

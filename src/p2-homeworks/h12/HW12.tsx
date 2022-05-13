@@ -5,7 +5,7 @@ import {useDispatch, useSelector} from "react-redux";
 import {AppStoreType} from "../h10/bll/store";
 import {changeThemeC} from "./bll/themeReducer";
 
-const themes = ['dark', 'red', 'some'];
+const themes = ['dark', 'red','gold','green', 'some'];
 
 function HW12() {
     const theme = useSelector<AppStoreType, string>(state => state.theme.currentTheme); // useSelector
