@@ -1,3 +1,17 @@
-.red{
-    color: red;
+._checkbox {
+    display: none;
+}
+
+.checkbox {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background: #fff;
+    border: 2px #ddd solid;
+    margin-right: 4px;
+}
+
+.checkboxActive {
+    border-color: purple;
+    background: purple;
 }
